@@ -19,6 +19,8 @@
 #include <sml/sml_attention_response.h>
 #include <sml/sml_tree.h>
 
+
+
 sml_attention_response *sml_attention_response_init() {
 	sml_attention_response *msg = (sml_attention_response *)malloc(sizeof(sml_attention_response));
 	*msg = (sml_attention_response){.server_id = NULL,
